@@ -36,7 +36,9 @@ SaaS metrics — [ChartMogul](https://chartmogul.com/), [BareMetrics](https://ba
 
 The bulk of this post is focused on this option, because you will eventually need to get here — may as well get the party started.
 
-There's a good chance you're already behind the 8-ball here. It's quite common to be missing critical data already, rendering your historical data incompatible with the schema you want to use going forward. This can be a real bummer, but it's better to blow this landmine up as early as possible.
+There's a good chance you're already behind the 8-ball — here's why...
+
+It's quite common that you haven't recorded everything you should have been, causing your historical data to be incompatible with the schema that you want to use going forward. This can be a real bummer, but it's better to blow this landmine up as early as possible.
 
 ### Data Collection
 
