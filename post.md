@@ -1,4 +1,4 @@
-When you're launching the initial, MVP version of your product, user analytics is pretty simple. Usually you'll setup Google Analytics, and add a well-known, all-in-one user analytics tool like [Mixpanel](https://mixpanel.com/), [KISSmetrics](https://www.kissmetrics.com/), [Popcorn Metrics](http://www.popcornmetrics.com/), [Flurry](http://www.flurry.com/), [Heap](https://heapanalytics.com/), or [Churnbee](https://churnbee.com). All good tools.
+When you're launching the initial, MVP version of your product, user analytics is pretty simple. Usually you'll setup [Google Analytics](http://www.google.com/analytics/), and add a well-known, all-in-one user analytics tool like [Mixpanel](https://mixpanel.com/), [KISSmetrics](https://www.kissmetrics.com/), [Popcorn Metrics](http://www.popcornmetrics.com/), [Flurry](http://www.flurry.com/), [Heap](https://heapanalytics.com/), or [Churnbee](https://churnbee.com). All good tools.
 
 You won't have a good plan for what you want to measure, so you just make sure that signups are making it into the system, and maybe a few other events, for good measure.
 
