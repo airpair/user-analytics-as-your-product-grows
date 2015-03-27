@@ -66,10 +66,10 @@ There are solutions to aggregate logfiles into a central, accessible location. I
 
 ---
 
-## Need help?
+## Where are you with your product?
 
-There are a lot more options available than we've discussed.
+There are **a lot more options** available than are discussed avoce.
 
-We're considering building a service offering to help owners of growing products sort through the options and optimize their effort and expense.
+We're considering offering a service to help you sort through all the options, and optimize the value you get in exchange for your investment (time and money).
 
-[Drop us an email if you think we should go for it (or not)](mailto:hey@usercycle.com).
+Should we? [We'd love to hear your thoughts](mailto:hey@usercycle.com).
