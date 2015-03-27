@@ -28,7 +28,7 @@ These tools provide a nice layer of information with minimal effort, and without
 
 Engagement/Churn Prediction — [Preact](http://www.preact.com/), [Framed Data](https://www.framed.io/) — sits on top of [Salesforce](http://www.salesforce.com/), [Desk.com](http://www.desk.com/), [Mixpanel](https://mixpanel.com/), etc.
 
-SaaS metrics — [ChartMogul](https://chartmogul.com/), [BareMetrics](https://baremetrics.com/) — sits on top of Stripe, etc.
+SaaS metrics — [ChartMogul](https://chartmogul.com/), [BareMetrics](https://baremetrics.com/) — sits on top of [Stripe](https://stripe.com/), etc.
 
 ---
 
@@ -52,7 +52,7 @@ If you're already at high event volumes, and have people with good SQL-fu on you
 
 If you have a data scientist (or someone who can play one on TV) and your own datawarehouse, you can leverage an impressive collection of cloud-based analysis tools, including [Mode](https://modeanalytics.com/), [Looker](http://www.looker.com/), [Chartio](https://chartio.com/), and [Datahero](https://datahero.com/) (in addition to traditional tools like [R](http://www.r-project.org/) and [Tableau](http://www.tableau.com/)).
 
-If you're light in the data science department, you can look take advantage of our [USERcycle recipes](https://usercycle.com/recipes) which connect directly to your datawarehouse, and provide a end-to-end analysis and visualization, inspired by the best practices of world-class product owners.
+If you're light in the data science department, you can look take advantage of our [USERcycle recipes](https://usercycle.com/recipes) which connect directly to your datawarehouse, and provide end-to-end analysis and visualization, inspired by the best practices of world-class product owners.
 
 ---
 
