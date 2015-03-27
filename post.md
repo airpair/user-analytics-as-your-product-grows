@@ -1,4 +1,6 @@
-When you're launching the initial, MVP version of your product, user analytics is pretty simple. Usually you'll setup [Google Analytics](http://www.google.com/analytics/), and add a well-known, all-in-one user analytics tool like [Mixpanel](https://mixpanel.com/), [KISSmetrics](https://www.kissmetrics.com/), [Popcorn Metrics](http://www.popcornmetrics.com/), [Flurry](http://www.flurry.com/), [Heap](https://heapanalytics.com/), or [Churnbee](https://churnbee.com). All good tools.
+## The early days
+
+When you're launching the initial, MVP version of your product, user analytics is pretty simple. Usually you'll setup [Google Analytics](http://www.google.com/analytics/), and add a well-known, all-in-one user analytics tool like [Mixpanel](https://mixpanel.com/), [KISSmetrics](https://www.kissmetrics.com/), [Popcorn Metrics](http://www.popcornmetrics.com/), [Flurry](http://www.flurry.com/), [Heap](https://heapanalytics.com/), or [Churnbee](https://churnbee.com). All good tools for what they provide.
 
 You won't have a good plan for what you want to measure, so you just make sure that signups are making it into the system, and maybe a few other events, for good measure.
 
@@ -6,13 +8,15 @@ And since you don't really have much to look at yet, or any historical context t
 
 At some point, though, you'll get an uneasy feeling that you're not really using the full power of the tool, especially once you outgrow the free tier, and start spending real money. Around the same time, you'll also begin to have questions that aren't answerable by these all-in-one tools.
 
-Then you get a question like this:
+## The crisis
+
+Eventually you get a question like this:
 
 > "How's your weekly active user retention look?" - a sophisticated investor 
 
 Shit just got real. Time to get on your A game.
 
-You then enter the crazy world of modern analytics, where tools come in all shapes, sizes, and costs; the options are daunting. 
+You then start trying to learn about the crazy world of modern analytics, and discover that tools come in all shapes, sizes, and costs; the options are daunting. 
 
 ---
 
@@ -30,29 +34,33 @@ Engagement/Churn Prediction — [Preact](http://www.preact.com/), [Framed Data](
 
 SaaS metrics — [ChartMogul](https://chartmogul.com/), [BareMetrics](https://baremetrics.com/) — sits on top of [Stripe](https://stripe.com/), etc.
 
+Some of these options can be pricey.
+
 ---
 
 ## Option 3: Establishing your own events datawarehouse
 
-The bulk of this post is focused on this option, because you will eventually need to get here — may as well get the party started.
+You will eventually need to take control of your own data, and it usually starts with bad news.
 
-There's a good chance you're already behind the 8-ball — here's why...
+You probably haven't been recorded everything you should have been, or you have been pushing data to a tool that you can't easily get your data back out of.
 
-It's quite common that you haven't recorded everything you should have been, causing your historical data to be incompatible with the schema that you want to use going forward. This can be a real bummer, but it's better to blow this landmine up as early as possible.
+We find quite often, however, that your historical data is incompatible with the schema that you want to use going forward. It's best to discover this as early as possible.
 
 ### Data Collection
 
-If you're still light on internal data science capability, and event volumes aren't too high, we think [Keen IO](https://keen.io/) is a great option for your first user events datawarehouse. It has very usable tools to get data both in and out, and the pricing is fair.
+Many startups are light on internal data science capability. If your event volumes are low, [Keen IO](https://keen.io/) is great as your first user events datawarehouse. It has very usable tools to get data in and out, and the pricing is reasonable (with a free bottom tier).
 
-If you're already at high event volumes, and have people with good SQL-fu on your team, [Snowplow Analytics](http://snowplowanalytics.com/) is a powerful option that results in a clean, tidy datawarehouse in [Amazon Redshift](http://aws.amazon.com/redshift/), which is accessed via a subset of PostgresSQL commands, and is a gateway into the world of higher-end data processing and analysis.
+If you're already at high event volumes, and have people with good SQL-fu on your team, [Snowplow Analytics](http://snowplowanalytics.com/) is a powerful option that results in a clean, tidy datawarehouse in [Amazon Redshift](http://aws.amazon.com/redshift/), which is accessed via a subset of PostgresSQL commands, and unlocks a world of high-end data processing and analysis (both in features and cost).
 
-[Segment](https://segment.com/) can [store your user events](https://segment.com/redshift) in Amazon Redshift as well, though the service is still limitedly available, and somewhat expensive.
+[Segment](https://segment.com/) can [store your user events](https://segment.com/redshift) in Amazon Redshift as well, though the service is still limitedly available, and somewhat expensive. Segment also pushes your data to other tools, so we find it extremely useful to add a layer of flexibility so each tool you want to try doesn't require more programmer time.
 
 ### Analysis and visualization
 
 If you have a data scientist (or someone who can play one on TV) and your own datawarehouse, you can leverage an impressive collection of cloud-based analysis tools, including [Mode](https://modeanalytics.com/), [Looker](http://www.looker.com/), [Chartio](https://chartio.com/), and [Datahero](https://datahero.com/) (in addition to traditional tools like [R](http://www.r-project.org/) and [Tableau](http://www.tableau.com/)).
 
 If you're light in the data science department, you can look take advantage of our [USERcycle recipes](https://usercycle.com/recipes) which connect directly to your datawarehouse, and provide end-to-end analysis and visualization, inspired by the best practices of world-class product owners.
+
+Also, Keen IO provides an [open source dashboard](https://github.com/keen/dashboards) that you can use as a basis for rolling your own custom analytics, in a more efficicient way.
 
 ---
 
