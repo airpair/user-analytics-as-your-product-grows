@@ -52,13 +52,13 @@ Many startups are light on internal data science capability. If your event volum
 
 If you're already at high event volumes, and have people with good SQL-fu on your team, [Snowplow Analytics](http://snowplowanalytics.com/) is a powerful option that results in a clean, tidy datawarehouse in [Amazon Redshift](http://aws.amazon.com/redshift/), which is accessed via a subset of PostgresSQL commands, and unlocks a world of high-end data processing and analysis (both in features and cost).
 
-[Segment](https://segment.com/) can [store your user events](https://segment.com/redshift) in Amazon Redshift as well, though the service is still limitedly available, and somewhat expensive. Segment also pushes your data to other tools, so we find it extremely useful to add a layer of flexibility so each tool you want to try doesn't require more programmer time.
+[Astronomer](http://astronomer.io) and [Segment](https://segment.com/) help you get your events into Amazon Redshift. These tools also push your data to other tools, so we find it extremely useful to add a layer of flexibility to reduce vendor lock-in, and to save programmer time.
 
 ### Analysis and visualization
 
 If you have a data scientist (or someone who can play one on TV) and your own datawarehouse, you can leverage an impressive collection of cloud-based analysis tools, including [Mode](https://modeanalytics.com/), [Looker](http://www.looker.com/), [Chartio](https://chartio.com/), and [Datahero](https://datahero.com/) (in addition to traditional tools like [R](http://www.r-project.org/) and [Tableau](http://www.tableau.com/)).
 
-If you're light in the data science department, you can look take advantage of our [USERcycle recipes](https://usercycle.com/recipes) which connect directly to your datawarehouse, and provide end-to-end analysis and visualization, inspired by the best practices of world-class product owners.
+If you're light in the data science department, and using Keen IO, you take advantage of some [Phil Libin style cohort visualizations ](https://www.airpair.com/keen-io/posts/making-phil-libin-style-cohort-visualizations-available-to-everyone) which connect directly to your datawarehouse, and provide end-to-end analysis and visualization, inspired by the best practices of world-class product owners. [Learn more about that solution](http://phil.astronomer.io/recipes).
 
 Also, Keen IO provides an [open source dashboard](https://github.com/keen/dashboards) that you can use as a basis for rolling your own custom analytics, in a more efficicient way.
 
