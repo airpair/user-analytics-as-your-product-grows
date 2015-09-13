@@ -58,7 +58,7 @@ If you're already at high event volumes, and have people with good SQL-fu on you
 
 If you have a data scientist (or someone who can play one on TV) and your own datawarehouse, you can leverage an impressive collection of cloud-based analysis tools, including [Mode](https://modeanalytics.com/), [Looker](http://www.looker.com/), [Chartio](https://chartio.com/), and [Datahero](https://datahero.com/) (in addition to traditional tools like [R](http://www.r-project.org/) and [Tableau](http://www.tableau.com/)).
 
-If you're light in the data science department, and using Keen IO, you take advantage of some [Phil Libin style cohort visualizations ](https://www.airpair.com/keen-io/posts/making-phil-libin-style-cohort-visualizations-available-to-everyone) which connect directly to your datawarehouse, and provide end-to-end analysis and visualization, inspired by the best practices of world-class product owners. [Learn more about that solution](http://phil.astronomer.io/recipes).
+If you're light in the data science department, and using Keen IO, you take advantage of some [Phil Libin style cohort visualizations ](https://www.airpair.com/keen-io/posts/making-phil-libin-style-cohort-visualizations-available-to-everyone) which connect directly to your datawarehouse, and provide end-to-end analysis and visualization, inspired by the best practices of world-class product owners. [Learn more about that solution](https://cohorts.astronomer.io).
 
 Also, Keen IO provides an [open source dashboard](https://github.com/keen/dashboards) that you can use as a basis for rolling your own custom analytics, in a more efficicient way.
 
@@ -66,7 +66,7 @@ Also, Keen IO provides an [open source dashboard](https://github.com/keen/dashbo
 
 ## Option 4: Logfile analysis 
 
-A [tweet by Kerry Rodden](https://twitter.com/kerryrodden/status/579397570100785152) was the inspiration for this post. A USERcycle customer asked us about using logfiles, citing Kerry's tweet.
+A [tweet by Kerry Rodden](https://twitter.com/kerryrodden/status/579397570100785152) was the inspiration for this post. An Astronomer customer asked us about using logfiles, citing Kerry's tweet.
 
 Back when we were living in a world where everything happened on the server, and there was only one server and service behind the application, this was a good solution. That world is dying, though. Raw logfiles are becoming less and less useful as a source for user event data, as more user interactions can occur in the web browser or app without triggering a backend event.
 
@@ -80,4 +80,4 @@ There are **a lot more options** available than are discussed above.
 
 We're considering offering a service to help you sort through all the options, and optimize the value you get in exchange for your investment (time and money).
 
-Should we? [We'd love to hear your thoughts](mailto:hey@usercycle.com).
+Should we? [We'd love to hear your thoughts](mailto:hey@astronomer.io).
